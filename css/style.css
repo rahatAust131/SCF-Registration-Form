@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(16, 16, 34);
+  background-repeat: no-repeat;
+  margin: 10px 5px 15px 0px;
+  padding: 3px;
+}
+header {
+  margin: 5px 5px 25px 0px;
+}
+.container1 {
+  float: left;
+  width: 50%;
+  margin: 15px 10px 10px 15px;
+  padding: 10px;
+}
+#player_logo {
+  display: flex;
+  width: 50%;
+}
+.info {
+  color: rgb(186, 250, 160);
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 10px;
+  padding: 12px;
+}
+
+#fb,
+#gmail,
+#contact2,
+#contact,
+#fathersName,
+#playersName,
+#dateOfBirth,
+#address {
+  height: 25px;
+  padding: 10px;
+  color: rgb(20, 22, 18);
+  font-size: 20px;
+  border-radius: 15px;
+  font-family: cursive;
+}
+#logo {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+.container2 {
+  float: right;
+  width: 50%;
+}
+
+.heading {
+  color: blanchedalmond;
+  display: block;
+  margin: auto;
+  width: 75%;
+  font-size: 25px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  height: 35px;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 125px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: indigo;
+  color: honeydew;
+}
+.btn:hover {
+  background-color: rgb(200, 124, 255);
+  color: rgb(0, 14, 0);
+}
